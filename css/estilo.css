@@ -1,0 +1,33 @@
+#header {
+	background: rgba(206, 26, 26, 0.56);
+	height: 300px;
+}
+
+#content {
+
+}
+
+#centro {
+	background: #0F0;
+	width: 50%;
+	margin: 0 auto;
+	height: 300px;
+	position: relative;
+}
+
+#rodape {
+	text-align: center;
+}
+
+#rodape #footer {
+	padding: 5%;
+}
+
+.quadrado {
+	width: 100px;
+	height: 100px;
+	background: #00F;
+	position: fixed;
+	top: 100px;
+	left: 0;
+}
