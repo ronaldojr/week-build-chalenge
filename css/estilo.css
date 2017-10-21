@@ -1,33 +1,35 @@
-#header {
-	background: rgba(206, 26, 26, 0.56);
-	height: 300px;
+body {
+	background-size: cover;
+	background-color: #000;
+	height: 100%;
 }
 
-#content {
-
+#cover {
+	margin-top: 20px;
+	background-image: url('../img/cover.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 470px;
 }
 
-#centro {
-	background: #0F0;
-	width: 50%;
-	margin: 0 auto;
-	height: 300px;
-	position: relative;
-}
+#titulo h1 {
 
-#rodape {
+	font-family: 'EB Garamond';
+	font-size: 8em;
 	text-align: center;
+	color: #FFF;
 }
 
-#rodape #footer {
-	padding: 5%;
+a#lojaoficial {
+	text-decoration: none;
+	font-family: 'EB Garamond';
+	font-size: 2em;
+	text-align: center;
+	color: #FFF;
 }
 
-.quadrado {
-	width: 100px;
-	height: 100px;
-	background: #00F;
-	position: fixed;
-	top: 100px;
-	left: 0;
+a#lojaoficial:hover {
+	color: #DA772D;
+	text-decoration: none;
 }
